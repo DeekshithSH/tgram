@@ -1,0 +1,22 @@
+name: teledart
+description: A sample command-line application.
+version: 1.0.0
+# repository: https://github.com/my_org/my_repo
+
+environment:
+  sdk: ^3.6.2
+
+# Add regular dependencies here.
+dependencies:
+  # tg: ^0.0.7
+  tg:
+    git:
+      url: https://github.com/DeekshithSH/tg
+      ref: patch-3
+    # path: ./packages/tg
+  t: any
+  socks5_proxy: ^1.0.4
+
+dev_dependencies:
+  lints: ^5.0.0
+  test: ^1.24.0
